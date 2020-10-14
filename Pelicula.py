@@ -4,7 +4,7 @@ class Pelicula():
     def __init__(self,titulo,calidad,url_imagen):
         self.titulo = titulo
         self.calidad = calidad
-        self.url_imagen = url_imagen
+        self.url_imagen =url_imagen
         self.getEnlaceTorrent()
 
 
